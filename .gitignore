@@ -23,9 +23,6 @@ htmlcov/
 .vscode/
 .idea/
 
-# GitHub Actions (puedes ignorar artefactos si los generas)
-*.workflow/
-
 # Archivos de compilación
 build/
 dist/
