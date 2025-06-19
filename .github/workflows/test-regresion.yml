@@ -24,6 +24,9 @@ jobs:
           source venv/bin/activate
           pip install -r requirements.txt
 
+      - name: Establecer PYTHONPATH
+        run: echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
+
       - name: Ejecutar pruebas
         run: |
           source venv/bin/activate
