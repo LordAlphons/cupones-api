@@ -1,0 +1,32 @@
+# Entorno virtual
+venv/
+.venv/
+ENV/
+env/
+
+# Archivos pycache y cache de pytest
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Configuración de SonarQube o reportes de análisis
+.sonar/
+coverage.xml
+htmlcov/
+
+# Archivos de entorno/editor
+*.env
+*.log
+*.sqlite3
+.DS_Store
+.vscode/
+.idea/
+
+# GitHub Actions (puedes ignorar artefactos si los generas)
+*.workflow/
+
+# Archivos de compilación
+build/
+dist/
+*.egg-info/
